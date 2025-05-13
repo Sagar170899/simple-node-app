@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    environment {
+        JAVA_HOME = 'C:\\Program Files\\Java\\jdk-<version>'
+        PATH = "${env.PATH};${JAVA_HOME}\\bin;C:\\JMeter\\bin"
+    }
     stages {
         stage('Install') {
             steps {
