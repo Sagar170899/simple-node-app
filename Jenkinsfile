@@ -14,12 +14,12 @@ pipeline {
         }
         stage('Performance Test') {
             steps {
-                bat 'jmeter -n -t src/load_test.jmx -l src/results.jtl'
+                bat 'jmeter -n -t load_test.jmx -l results.jtl'
             }
         }
         stage('Publish Results') {
             steps {
-                perfReport sourceDataFiles: 'src/results.jtl'
+                perfReport sourceDataFiles: 'results.jtl'
             }
         }
     }

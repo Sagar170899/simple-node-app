@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1747112662181,791,HTTP Request,200,OK,Thread Group 1-1,text,true,,241,119,5,5,http://localhost:3000/,783,0,723
+1747112662468,504,HTTP Request,200,OK,Thread Group 1-4,text,true,,241,119,5,5,http://localhost:3000/,496,0,436
+1747112662674,298,HTTP Request,200,OK,Thread Group 1-5,text,true,,241,119,5,5,http://localhost:3000/,290,0,230
+1747112662181,791,HTTP Request,200,OK,Thread Group 1-2,text,true,,241,119,5,5,http://localhost:3000/,783,0,723
+1747112662274,698,HTTP Request,200,OK,Thread Group 1-3,text,true,,241,119,5,5,http://localhost:3000/,690,0,630
